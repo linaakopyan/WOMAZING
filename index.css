@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
     transition: 0.5s ease;
     scroll-behavior: smooth;
     letter-spacing: 0.02em;
@@ -13,6 +12,7 @@ body {
     height: 28px;
     margin-left: 245px;
     margin-top: 51px;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -297,3 +297,5 @@ h3 {
 .staff_text > a:hover {
     border-bottom: 1px solid #CEDEDF;;
 }
+
+

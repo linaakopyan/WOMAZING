@@ -1,13 +1,82 @@
+$inactive-txt: #919191;
+
+%active {
+  background-color: black;
+  color: white;
+}
+
+%btn-hover {
+  background-color: transparent;
+  color: black;
+}
+
+%btn-hover-reverse {
+  background-color: black;
+  color: white;
+}
+
 div.nav_scrums {
   margin-top: 28px;
   margin-bottom: 214px;
 
   p {
     display: inline;
+    font-weight: 600;
   }
 
-  hr {
-    rotate: 90deg;
-    display: inline;
+  p.active_scrum {
+    font-weight: 500;
+    color: $inactive-txt;
+  }
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 92px;
+
+  a {
+    padding: 19px 65px;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+  }
+
+  a:hover {
+    @extend %btn-hover;
+  }
+}
+
+.shown_goods {
+  color: $inactive-txt;
+  margin-bottom: 65px;
+}
+
+.shop_page__cards {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.page_nav {
+  display: flex;
+  gap: 14px;
+  margin-left: 490px;
+  margin-bottom: 130px;
+
+  a {
+    padding: 9px 16px;
+    border: solid 1px black;
+  }
+
+  a.active {
+    @extend %active;
+  }
+
+  a:hover {
+    @extend %btn-hover-reverse;
   }
 }

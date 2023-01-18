@@ -55,7 +55,6 @@ div.nav_scrums p.active_scrum {
   display: flex;
   gap: 14px;
   margin-left: 490px;
-  margin-bottom: 130px;
 }
 .page_nav a {
   padding: 9px 16px;

@@ -1,0 +1,58 @@
+div.nav_scrums {
+  margin-top: 28px;
+  margin-bottom: 214px;
+
+  p {
+    display: inline;
+    font-weight: 600;
+  }
+
+  p.active_scrum {
+    font-weight: 500;
+    color: #919191;
+  }
+}
+
+article {
+  grid-template-columns: 50% 50%;
+  display: flex;
+  gap: 94px;
+  margin-bottom: 130px;
+
+  div {
+    display: inline;
+    flex-direction: row;
+  }
+
+  div.txt {
+    margin-top: 77px;
+  }
+
+  h3 {
+    margin-bottom: 46px;
+  }
+
+  p {
+    line-height: 140%;
+    margin-bottom: 23.8px;
+  }
+}
+
+button.open-shop {
+  width: 260px;
+  height: 68px;
+  background-color: #6E9C9F;
+  border: none;
+  margin-left: 423.5px;
+
+  a {
+    padding: 22px 50px;
+    font-size: 17px;
+    line-height: 138.9%;
+    color: white;
+  }
+
+  &:hover {
+    background: #509498;
+  }
+}

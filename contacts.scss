@@ -2,10 +2,12 @@ div.nav_scrums {
   margin-top: 28px;
   margin-bottom: 214px;
 }
+
 div.nav_scrums p {
   display: inline;
   font-weight: 600;
 }
+
 div.nav_scrums p.active_scrum {
   font-weight: 500;
   color: #919191;
@@ -14,4 +16,88 @@ div.nav_scrums p.active_scrum {
 .map {
   width: 1109px;
   height: 476px;
+  margin-bottom: 130px;
 }
+
+.contact-row {
+  display: flex;
+  gap: 111px;
+  margin-bottom: 130px;
+
+  p:nth-child(2) {
+    margin-top: 19px;
+    font-size: 20px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 35px;
+
+  input {
+    height: 40px;
+  }
+
+  input, textarea {
+    border: none;
+    border-bottom: solid 1px black;
+  }
+
+  textarea {
+    width: 443px;
+    height: 134px;
+  }
+}
+
+button {
+  width: 189px;
+  height: 67px;
+  background: #6E9C9F;
+  border: none;
+
+  a {
+    padding: 22px 50px;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &:hover {
+    background: #509498;
+  }
+}
+
+.success {
+  margin-top: 62px;
+  width: 437px;
+  height: 84px;
+  padding: 30px 76px;
+  background-color: #F1EADC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

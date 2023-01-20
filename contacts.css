@@ -1,0 +1,21 @@
+div.nav_scrums {
+  margin-top: 28px;
+  margin-bottom: 214px;
+}
+
+div.nav_scrums p {
+  display: inline;
+  font-weight: 600;
+}
+
+div.nav_scrums p.active_scrum {
+  font-weight: 500;
+  color: #919191;
+}
+
+.map {
+  width: 1109px;
+  height: 476px;
+}
+
+/*# sourceMappingURL=contacts.css.map */

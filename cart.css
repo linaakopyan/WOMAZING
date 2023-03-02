@@ -104,5 +104,9 @@ hr {
 .cart-cost button:hover {
   background: #509498;
 }
+.cart-cost button a {
+  padding: 22px 50px;
+  color: white;
+}
 
 /*# sourceMappingURL=cart.css.map */

@@ -5,7 +5,7 @@
     <title>WOMAZING</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="checkout.css">
 </head>
 <body>
 
@@ -31,47 +31,69 @@
     </div>
 </header>
 
-<h1>Корзина</h1>
+
+<h1>Оформление заказа</h1>
 <div class="nav_scrums">
     <p>Главная</p>
     <p>&mdash;</p>
-    <p class="active_scrum">О бренде</p>
+    <p class="active_scrum">Оформление заказа</p>
 </div>
 
-<div class="cart-names">
-    <p>Товар</p>
-    <p>Цена</p>
-    <p>Количество</p>
-    <p>Всего</p>
-</div>
+<main>
+    <section class="left">
+        <div class="info">
+            <h3>Данные покупателя</h3>
+            <form action="">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Телефон">
+            </form>
+        </div>
+        <div class="address">
+            <h3>Данные получателя</h3>
 
-<hr>
-
-<div class="cart-values">
-    <p class="item">
-        <object class="shop-cart" type="image/svg+xml" data="img/icons/cross.svg">Your browser does not support SVGs>
-        </object>
-        <img src="img/new-collection1.png" alt="товар">
-        Футболка USA
-    </p>
-    <p class="cost">_</p>
-    <p class="amount">1</p>
-    <p class="cost-sum">_</p>
-</div>
-
-<div class="cart-actions">
-    <input type="text" placeholder="Введите купон">
-    <button>Применить купон</button>
-    <button>Обновить корзину</button>
-</div>
-<div class="cart-cost">
-    <p>Подытог: _</p>
-    <div>
-        <p>Итого: _</p>
-        <button><a href="checkout.html">Оформить заказ</a></button>
-    </div>
-</div>
-
+            <form action="">
+                <input type="text" placeholder="Страна">
+                <input type="text" placeholder="Город">
+                <input type="text" placeholder="Улица">
+                <input type="text" placeholder="Дом">
+                <input type="text" placeholder="Квартира">
+            </form>
+        </div>
+        <div class="comment">
+            <h3>Комментарии</h3>
+            <form action="">
+                <input type="text" placeholder="Комментарий">
+            </form>
+        </div>
+    </section>
+    <section class="right">
+        <div class="checkout">
+            <h3>Ваш заказ</h3>
+            <div class="name">
+                <p>Товар</p>
+                <p>Всего</p>
+            </div>
+            <div class="item">
+                <p>Футболка USA</p>
+                <p>$129</p>
+            </div>
+            <div class="cost">
+                <p>Подытог</p>
+                <p>$129</p>
+            </div>
+            <div class="total">
+                <p>Итого</p>
+                <p>$129</p>
+            </div>
+        </div>
+        <div class="payment">
+            <h3>Способ оплаты</h3>
+            <input type="radio">Оплата наличными
+            <button>Разместить заказ</button>
+        </div>
+    </section>
+</main>
 
 <footer>
     <div class="footer-left">
@@ -123,7 +145,6 @@
         <img class="payment" src="img/visa-mc.png" alt="">
     </div>
 </footer>
-
 
 </body>
 </html>

@@ -115,6 +115,12 @@ hr {
 
     &:hover {
       background: #509498;
+      cursor: pointer;
+    }
+
+    a {
+      padding: 22px 50px;
+      color: #ffffff;
     }
   }
 }

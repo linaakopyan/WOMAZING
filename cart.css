@@ -103,6 +103,11 @@ hr {
 }
 .cart-cost button:hover {
   background: #509498;
+  cursor: pointer;
+}
+.cart-cost button a {
+  padding: 22px 50px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=cart.css.map */
